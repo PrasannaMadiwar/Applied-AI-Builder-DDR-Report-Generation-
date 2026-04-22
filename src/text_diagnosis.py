@@ -38,7 +38,7 @@ def report_text_diagnosis(text_context):
     TASKS:
     1. Identify all areas (Hall, Bedroom, Kitchen, etc.)
     2. Extract observations/issues per area
-    3. Clean and standardize descriptions
+    3. Clean and standardize detailed descriptions
     4. Attach corresponding image paths to correct areas
     5. Identify any mentioned causes (if explicitly present)
     6. Identify severity hints ONLY if clearly mentioned
@@ -56,7 +56,7 @@ def report_text_diagnosis(text_context):
             "issue": "",
             "description": "",
             "severity_hint": "Low | Medium | High | Not Available",
-            "images": []
+            "images": [{{return both paths given input as dict in which key is path in "inspect" directory path and value is path belongs to"photo" path}}]
             }}
         ]
         }}
@@ -111,7 +111,7 @@ def thermal_text_diagnosis(text_context):
     "source": "thermal",
     "observations": [
         {{
-        "image": "",
+        "image": [{{return both paths given input as dict in which key is path in "thermal" directory path and value is path belongs to path "RB02380X.JPG" path}}],
         "hotspot": "",
         "coldspot": "",
         "interpretation": "",

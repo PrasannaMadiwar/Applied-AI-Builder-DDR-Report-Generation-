@@ -35,10 +35,11 @@ def incpection_merge(inspection_text,inspection_image):
         2) For each area:
         - Merge text observations with image observations.
         - Deduplicate similar issues (same type + location).
-        - Attach all relevant image paths to the merged issue.
+        - you will get two paths in text_diagnosis_json in key dict format try to match path with the path given in image_diagnosis_json_list but return only the path corresponds to "inspect" directory.
+        - Attach all relevant image paths to the merged issue and the path should be only from text_diagnosis_json dont return path from image_diagnosis_json_list.
         3) Map image observations:
         - If an image includes area info → map to that area.
-        - Else → place under area "Unmapped".
+        - Else → place under area "Unmapped". 
         4) Capture severity:
         - Prefer explicit severity from text; else use image severity; else "Not Available".
         5) Capture conflicts:
@@ -124,6 +125,7 @@ def thermal_merger(thermal_text, thermal_image):
     TASKS:
     1) For each image:
     - Combine text readings (hotspot/coldspot) with visual analysis (pattern, issue).
+    - you will get two paths in text_diagnosis_json in dict format try to match path with the path given in image_diagnosis_json_list but return only the path corresponds to "thermal" directory. 
     2) Prefer explicit numeric values from text; if absent, use only what is visible.
     3) Derive interpretation:
     - Cold region → possible moisture/leakage

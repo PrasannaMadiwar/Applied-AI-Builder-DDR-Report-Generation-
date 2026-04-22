@@ -15,7 +15,6 @@ def extract_text_images(doc_path:str,image_folder:str):
         image_path=image_folder
     )
     
-    text_data = [ind['text'] for ind in data]
-    text_context = "<----------------next------------>".join(text_data)
+     
 
-    return text_context
+    return data

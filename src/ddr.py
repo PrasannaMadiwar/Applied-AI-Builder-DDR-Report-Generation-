@@ -39,7 +39,7 @@ def ddr_agent(inspection_merged, thermal_merged):
     TASKS:
 
     1. PROPERTY ISSUE SUMMARY
-    - Provide a concise overview of major issues across the property
+    - Provide a concise & detailed overview of major issues across the property
     - Base only on repeated or significant observations
 
     ---
@@ -54,7 +54,7 @@ def ddr_agent(inspection_merged, thermal_merged):
 
     Each observation must include:
     - issue
-    - description
+    - description(4-5 lines)
     - supporting evidence (text + thermal insight)
     - image paths
 
