@@ -1,0 +1,159 @@
+{
+    "property_issue_summary": "Major issues across the property include observed dampness at skirting levels in several areas and hollowness in tiles. Seepage in the parking area is also noted. Thermal observations indicate multiple hotspots suggesting potential heat loss, though these areas are not clearly identified.",
+    "areas": [
+        {
+            "area": "Hall",
+            "observations": [
+                {
+                    "issue": "Dampness",
+                    "description": "Dampness observed at the skirting level.",
+                    "thermal_insight": "Not Available",
+                    "root_cause": "Not Available",
+                    "severity": {
+                        "level": "Medium",
+                        "reason": "Consistent dampness observed at skirting level, indicating moisture issue."
+                    },
+                    "recommended_action": "Repair any leaks and ensure proper drainage.",
+                    "images": [
+                        "inspect/Sample_Report.pdf-0003-09.png",
+                        "inspect/Sample_Report.pdf-0003-10.png",
+                        "inspect/Sample_Report.pdf-0003-11.png",
+                        "inspect/Sample_Report.pdf-0003-12.png"
+                    ]
+                }
+            ]
+        },
+        {
+            "area": "Bedroom",
+            "observations": [
+                {
+                    "issue": "Dampness",
+                    "description": "Dampness observed at the skirting level.",
+                    "thermal_insight": "Not Available",
+                    "root_cause": "Not Available",
+                    "severity": {
+                        "level": "Medium",
+                        "reason": "Dampness demonstrated similar moisture issues as noted in other areas."
+                    },
+                    "recommended_action": "Assess for leaks and improve ventilation.",
+                    "images": [
+                        "inspect/Sample_Report.pdf-0003-34.png",
+                        "inspect/Sample_Report.pdf-0003-35.png",
+                        "inspect/Sample_Report.pdf-0003-36.png"
+                         
+                    ]
+                }
+            ]
+        },
+        {
+            "area": "Master Bedroom",
+            "observations": [
+                {
+                    "issue": "Dampness",
+                    "description": "Dampness observed at the skirting level.",
+                    "thermal_insight": "Not Available",
+                    "root_cause": "Not Available",
+                    "severity": {
+                        "level": "Medium",
+                        "reason": "Dampness also highlights potential moisture control problems."
+                    },
+                    "recommended_action": "Investigate moisture sources and seal any breaks.",
+                    "images": [
+                        "inspect/Sample_Report.pdf-0004-04.png"
+                         
+                    ]
+                },
+                {
+                    "issue": "Hollowness",
+                    "description": "Hollowness observed in bathroom tile.",
+                    "thermal_insight": "Not Available",
+                    "root_cause": "Not Available",
+                    "severity": {
+                        "level": "Not Available",
+                        "reason": "Details on hollowness severity are not available."
+                    },
+                    "recommended_action": "Evaluate hollowness and consider re-tiling if structural integrity is compromised.",
+                    "images": [
+                        "inspect/Sample_Report.pdf-0004-05.png"
+                    ]
+                }
+            ]
+        },
+        {
+            "area": "Kitchen",
+            "observations": [
+                {
+                    "issue": "Dampness",
+                    "description": "Dampness observed at the skirting level.",
+                    "thermal_insight": "Not Available",
+                    "root_cause": "Not Available",
+                    "severity": {
+                        "level": "Medium",
+                        "reason": "Continued observations of dampness indicate systematic issues."
+                    },
+                    "recommended_action": "Check for plumbing issues and enhance drainage.",
+                    "images": [
+                        "inspect/Sample_Report.pdf-0004-04.png"
+                         
+                    ]
+                }
+            ]
+        },
+        {
+            "area": "Common Bathroom",
+            "observations": [
+                {
+                    "issue": "Dampness",
+                    "description": "Dampness observed at the ceiling.",
+                    "thermal_insight": "Not Available",
+                    "root_cause": "Not Available",
+                    "severity": {
+                        "level": "Medium",
+                        "reason": "Ceiling dampness can lead to further structural damage."
+                    },
+                    "recommended_action": "Inspect roof and plumbing for leaks.",
+                    "images": [
+                        "inspect/Sample_Report.pdf-0006-26.png",
+                        "Photo 58"
+                    ]
+                },
+                {
+                    "issue": "Hollowness",
+                    "description": "Hollowness observed in tile and plumbing issues.",
+                    "thermal_insight": "Not Available",
+                    "root_cause": "Not Available",
+                    "severity": {
+                        "level": "Not Available",
+                        "reason": "Specific severity is not defined."
+                    },
+                    "recommended_action": "Investigate installation and repair any damages.",
+                    "images": [
+                        "inspect/Sample_Report.pdf-0006-20.png"
+                    ]
+                }
+            ]
+        },
+        {
+            "area": "Parking Area",
+            "observations": [
+                {
+                    "issue": "Seepage",
+                    "description": "Seepage observed.",
+                    "thermal_insight": "Not Available",
+                    "root_cause": "Not Available",
+                    "severity": {
+                        "level": "Not Available",
+                        "reason": "Details on seepage severity are not available."
+                    },
+                    "recommended_action": "Investigate source of seepage and apply fixes.",
+                    "images": []
+                }
+            ]
+        }
+    ],
+    "additional_notes": [
+        "Hotspots detected throughout the property indicate potential areas of heat loss, though specific locations are not defined."
+    ],
+    "missing_information": [],
+    "conflicts": []
+}
